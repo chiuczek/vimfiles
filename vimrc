@@ -19,7 +19,7 @@ filetype plugin on
 filetype plugin indent on
 syntax enable
 
-colorscheme base16-atelierforest "zenburn
+colorscheme base16-atelierforest
 set background=dark
 
 autocmd filetype python setlocal shiftwidth=4 tabstop=4 softtabstop=4
