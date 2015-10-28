@@ -67,9 +67,14 @@ let g:airline_powerline_fonts = 1
 let g:ycm_path_to_python_interpreter = '/usr/local/Cellar/python/2.7.10_2/bin/python'
 let g:python_host_prog = '/usr/local/Cellar/python/2.7.10_2/bin/python'
 let g:ycm_key_list_previous_completion=['<Up>']
+
 let g:UltiSnipsExpandTrigger="<s-tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+let test#javascript#mocha#options = "--ui tdd"
+nmap <silent> <localleader>t :TestNearest<CR>
+nmap <silent> <localleader>T :TestSuite<CR>
 
 if has('nvim')
     tnoremap <Esc> <C-\><C-n>
