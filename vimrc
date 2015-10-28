@@ -72,6 +72,7 @@ let g:UltiSnipsExpandTrigger="<s-tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
+let test#strategy = "neoterm"
 let test#javascript#mocha#options = "--ui tdd"
 nmap <silent> <localleader>t :TestNearest<CR>
 nmap <silent> <localleader>T :TestSuite<CR>
