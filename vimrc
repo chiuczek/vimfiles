@@ -25,6 +25,7 @@ set background=dark
 autocmd filetype python setlocal shiftwidth=4 tabstop=4 softtabstop=4
 autocmd filetype make setlocal noexpandtab
 autocmd filetype javascript nnoremap <buffer> <localleader>c :Neomake jshint<CR>
+autocmd filetype javascript nnoremap <buffer> <localleader>w :w<CR> :Neomake eslint<CR>
 
 " map <C-p> :w<CR>:!python %<CR>
 " imap <C-p> <ESC>:w<CR>:!python %<CR>
@@ -74,8 +75,8 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 let test#strategy = "neoterm"
 let test#javascript#mocha#options = "--ui tdd"
-nmap <silent> <localleader>t :TestNearest<CR>
-nmap <silent> <localleader>T :TestSuite<CR>
+nmap <silent> <localleader>t :w<CR>:TestNearest<CR>
+nmap <silent> <localleader>T :w<CR>:TestSuite<CR>
 
 if has('nvim')
     tnoremap <Esc> <C-\><C-n>
