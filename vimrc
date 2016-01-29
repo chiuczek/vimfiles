@@ -55,6 +55,7 @@ set showmatch
 set guifont=Sauce\ Code\ Powerline:h13"Inconsolata:h15
 set guioptions-=T
 set lines=55 columns=175
+autocmd filetype todo set lines=23 columns=90
 
 nnoremap <localleader>h <C-w>h
 nnoremap <localleader>j <C-w>j
@@ -62,11 +63,13 @@ nnoremap <localleader>k <C-w>k
 nnoremap <localleader>l <C-w>l
 
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
+let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 "let g:ycm_path_to_python_interpreter = '/Users/mcnamara/anaconda/bin/python'
 "let g:python_host_prog = '/Users/mcnamara/anaconda/bin/python'
 
-let g:ycm_path_to_python_interpreter = '/usr/local/Cellar/python/2.7.10_2/bin/python'
-let g:python_host_prog = '/usr/local/Cellar/python/2.7.10_2/bin/python'
+let g:ycm_path_to_python_interpreter = '/usr/local/Cellar/python/2.7.11/bin/python'
+let g:python_host_prog = '/usr/local/Cellar/python/2.7.11/bin/python'
 let g:ycm_key_list_previous_completion=['<Up>']
 
 let g:UltiSnipsExpandTrigger="<s-tab>"
