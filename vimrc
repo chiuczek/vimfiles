@@ -19,7 +19,8 @@ filetype plugin on
 filetype plugin indent on
 syntax enable
 
-colorscheme base16-atelierforest
+set t_Co=256
+colorscheme zenburn " base16-atelierheath
 set background=dark
 
 autocmd filetype python setlocal shiftwidth=4 tabstop=4 softtabstop=4
@@ -52,9 +53,9 @@ set magic
 
 set showmatch
 
-set guifont=Sauce\ Code\ Powerline:h13"Inconsolata:h15
+set guifont=Source\ Code\ Pro\ for\ Powerline\ Regular:h13"Inconsolata:h15
 set guioptions-=T
-set lines=55 columns=175
+set lines=50 columns=175
 autocmd filetype todo set lines=23 columns=90
 
 nnoremap <localleader>h <C-w>h
@@ -68,8 +69,8 @@ let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 "let g:ycm_path_to_python_interpreter = '/Users/mcnamara/anaconda/bin/python'
 "let g:python_host_prog = '/Users/mcnamara/anaconda/bin/python'
 
-let g:ycm_path_to_python_interpreter = '/usr/local/Cellar/python/2.7.11/bin/python'
-let g:python_host_prog = '/usr/local/Cellar/python/2.7.11/bin/python'
+" let g:ycm_path_to_python_interpreter = '/usr/local/Cellar/python/2.7.11/bin/python'
+" let g:python_host_prog = '/usr/local/Cellar/python/2.7.11/bin/python'
 let g:ycm_key_list_previous_completion=['<Up>']
 
 let g:UltiSnipsExpandTrigger="<s-tab>"
