@@ -1,9 +1,6 @@
 [submodule "bundle/vim-snippets"]
 	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets
-[submodule "bundle/vim-signify"]
-	path = bundle/vim-signify
-	url = https://github.com/mhinz/vim-signify
 [submodule "bundle/vim-pandoc-syntax"]
 	path = bundle/vim-pandoc-syntax
 	url = https://github.com/vim-pandoc/vim-pandoc-syntax

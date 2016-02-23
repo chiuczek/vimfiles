@@ -19,8 +19,9 @@ filetype plugin on
 filetype plugin indent on
 syntax enable
 
-set t_Co=256
-colorscheme zenburn " base16-atelierheath
+" let g:base16_shell_path='/home/intellisense/winshare/repos/base16-shell/'
+"set t_Co=256
+"colorscheme base16-atelierforest " zenburn
 set background=dark
 
 autocmd filetype python setlocal shiftwidth=4 tabstop=4 softtabstop=4
