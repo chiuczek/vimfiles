@@ -14,15 +14,17 @@ set softtabstop=4
 set textwidth=79
 set formatoptions+=t
 
+set title
+
 filetype on
 filetype plugin on
 filetype plugin indent on
 syntax enable
 
-" let g:base16_shell_path='/home/intellisense/winshare/repos/base16-shell/'
-"set t_Co=256
-"colorscheme base16-atelierforest " zenburn
+let g:base16_shell_path='/home/intellisense/winshare/repos/base16-shell/'
+let base16colorspace=256
 set background=dark
+colorscheme base16-atelierforest " zenburn
 
 autocmd filetype python setlocal shiftwidth=4 tabstop=4 softtabstop=4
 autocmd filetype make setlocal noexpandtab

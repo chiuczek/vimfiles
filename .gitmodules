@@ -31,9 +31,6 @@
 [submodule "bundle/floobits-neovim"]
 	path = bundle/floobits-neovim
 	url = https://github.com/Floobits/floobits-neovim
-[submodule "bundle/ctrlp.vim"]
-	path = bundle/ctrlp.vim
-	url = https://github.com/kien/ctrlp.vim
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe
@@ -46,3 +43,12 @@
 [submodule "bundle/neoterm"]
 	path = bundle/neoterm
 	url = https://github.com/kassio/neoterm
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "bundle/vim-devicons"]
+	path = bundle/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons
