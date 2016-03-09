@@ -65,7 +65,7 @@ set colorcolumn=80
 set clipboard=unnamed,unnamedplus
 set mouse=a
 set ruler
-set number
+set relativenumber number
 set numberwidth=5
 set scrolloff=10
 set cursorline

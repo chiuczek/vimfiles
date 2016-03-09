@@ -55,3 +55,6 @@
 [submodule "bundle/fzf"]
 	path = bundle/fzf
 	url = https://github.com/junegunn/fzf
+[submodule "bundle/vimtex"]
+	path = bundle/vimtex
+	url = https://github.com/lervag/vimtex
